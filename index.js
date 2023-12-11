@@ -3,7 +3,7 @@ const Button = (props) => {
   const {heading, btn-text} = props
   return{
   <div className = "background">
-    <h1 className = {heading}>{heading}</h1>
+    <h1 className = heading>{heading}</h1>
     <button className = {btn-text}>{btn-text}</button>
   </div>;
   }
