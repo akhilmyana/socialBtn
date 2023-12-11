@@ -11,10 +11,9 @@ const Button = (props) => {
 
 const element = (
   //  Write your code here.
-  <Button heading = "Social Buttons"/>
-  <Button btnText="like"/>
-  <Button btnText="comment"/>
-  <Button btText="share"/>
+  <Button btnText="like" heading = "Social Buttons/>
+  <Button btnText="comment" heading = "Social Buttons/>
+  <Button btText="share" heading = "Social Buttons/>
 );
 
 ReactDOM.render(element, document.getElementById("root"));
